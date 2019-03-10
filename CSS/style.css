@@ -1,0 +1,174 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header.page-header{
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    max-height: 100px;
+}
+.page-logo{
+    height: 100px;
+}
+nav{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+nav ul{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li{
+    box-sizing: border-box;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    padding-top: 25px;
+    
+    padding-bottom: 25px;
+    
+}
+nav ul li:hover{
+    box-sizing: border-box;
+    border-bottom : 2px solid black;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+li.go{
+    box-sizing: border-box;
+    width: 20%;
+}
+main{
+    width: 100%;
+}
+.main-photo{
+    position: relative;
+    max-width: 100%;
+    
+}
+.word{
+   position: absolute;
+    left: 50%;
+    margin-left: -205px;
+    color: ;
+    top: 50%;
+    color: black;
+    margin-top: -84px;
+    font-size: 28px;
+    line-height: 2;
+    font-weight: 600;
+    text-align: center;
+}
+
+.main-photo img{
+    width: 100%;
+}
+.one{
+    margin: 40px 0px;
+}
+.content1{
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.content1 ul{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    list-style: none;
+}
+.adverts{
+    width: 30%;
+    
+    margin-left: 30px;
+}
+.adverts img{
+    width: 300px;
+    height: 300px;
+}
+footer.page-footer{
+    width: 100%;
+    display: flex;
+    background: black;
+    justify-content: center;
+}
+.helper{
+    padding: 50px 0px;
+    width: 60%;
+}
+.foot-h{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    justify-content: center;
+}
+.page-footer ul{
+    
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.page-footer ul li{
+    box-sizing: border-box;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    padding-top: 25px;
+    
+    padding-bottom: 25px;
+    
+}
+.page-footer ul li.go:hover{
+     box-sizing: border-box;
+    border-bottom : 2px solid white;
+}
+.page-footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.page-footer .foot-h img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-text{
+    color: white;
+}
+#share-us{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
